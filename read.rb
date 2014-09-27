@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 
-rows = ARGV[2] || 36
-cols = ARGV[3] || 150
-splits = ARGV[1] || 2
-splits = splits.to_i
+rows = ARGV[2].to_i   || 36
+cols = ARGV[3].to_i   || 149
+splits = ARGV[1].to_i || 2
 offset = 0
 
 filename = ARGV[0]
