@@ -1,9 +1,13 @@
 #!/usr/bin/env ruby
 
-rows = ARGV[2].to_i   || 36
-cols = ARGV[3].to_i   || 149
-splits = ARGV[1].to_i || 2
+rows = ARGV[2].to_i
+cols = ARGV[3].to_i
+splits = ARGV[1].to_i
 offset = 0
+
+rows = 36 if rows == 0
+cols = 149 if cols == 0
+splits = 2 if splits = 0
 
 filename = ARGV[0]
 puts "Filename: #{filename}"
