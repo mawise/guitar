@@ -7,7 +7,7 @@ offset = 0
 
 rows = 36 if rows == 0
 cols = 149 if cols == 0
-splits = 2 if splits = 0
+splits = 2 if splits == 0
 
 filename = ARGV[0]
 puts "Filename: #{filename}"
