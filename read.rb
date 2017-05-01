@@ -23,6 +23,7 @@ file.close
 
 rows = lines.size if lines.size < rows
 loop do
+  5.times{puts ""}
   (0...rows).each do |line_number|
     display_line =  ""
     (0...splits).each do |split|
