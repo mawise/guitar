@@ -3,6 +3,8 @@ Guitar Chords
 
 These are guitar chords for various songs that I've been collecting.  This repo serves as my own modern-day equivalent to my Dad's red binder of songs he collected.
 
+Feel free to send me pull requets if you want me to learn a song!
+
 read.rb
 -------
 
