@@ -7,7 +7,8 @@ offset = 0
 
 rows = 36 if rows == 0
 rows = rows-1 if (rows % 2 == 1) # keep it even
-cols = 149 if cols == 0
+#cols = 149 if cols == 0
+cols = 179 if cols == 0
 splits = 2 if splits == 0
 
 filename = ARGV[0]
